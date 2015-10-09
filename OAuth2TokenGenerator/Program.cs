@@ -20,7 +20,7 @@ namespace OAuth2TokenGenerator
                 Console.WriteLine("OAuth2TokenGenerator for Google APIs. Pipe the output into other commands");
                 Console.WriteLine("");
                 Console.WriteLine("Usage:");
-                Console.WriteLine("  oauth2tokengenerator --file=c:\\test.p12 --client-email=1234@developer.gserviceaccount.com --scopes=https://www.googleapis.com/auth/androidpublisher");
+                Console.WriteLine("  oauth2tokengenerator --key-file=c:\\test.p12 --client-email=1234@developer.gserviceaccount.com --scopes=https://www.googleapis.com/auth/androidpublisher");
                 Console.WriteLine("");
                 Console.WriteLine("Options:");
                 Console.WriteLine("  --key-file=<path>              Path to private key file (.p12 file)");
