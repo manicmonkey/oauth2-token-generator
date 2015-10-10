@@ -6,7 +6,6 @@ using System.Net;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using System.Web;
-using System.Web.UI.WebControls;
 using Newtonsoft.Json;
 
 namespace OAuth2TokenGenerator
