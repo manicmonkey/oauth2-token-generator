@@ -72,6 +72,9 @@ namespace OAuth2TokenGenerator
             return args.Any(arg => arg.StartsWith(argName));
         }
 
+        /// <summary>
+        /// Build JWT and acquire access token based on https://developers.google.com/identity/protocols/OAuth2ServiceAccount
+        /// </summary>
         public static string GetAccessToken(string privateKeyFile, string privateKeyPassword, string clientEmail, string[] scopes)
         {
             var encodedHeader = GetEncodedJwtHeader();
